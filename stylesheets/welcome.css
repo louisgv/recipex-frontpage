@@ -1,0 +1,73 @@
+#welcome {
+  /*background: darkred;*/
+  /*display: flex;*/
+}
+
+.app-preview {
+  background: red;
+  opacity: 0.45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-request {
+  background: darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-item {
+  height: 27px;
+  background: gray;
+  display: block;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.app-phonecase {
+  height: 450px;
+  width: 270px;
+  background: gray;
+}
+
+.centered-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.centered-prompt-item + .centered-prompt-item {
+  margin-top: 5px;
+}
+
+.centered-prompt-icon {
+  font-size: 60px;
+  line-height: 0;
+}
+
+.centered-prompt-label {
+  color: #86969C;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.centered-prompt-details {
+  color: #86969C;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.icon {
+  color: #BCD2DA;
+}
