@@ -17,25 +17,15 @@
 		return mt("div", {
 			class: "pure-g"
 		}, [
-      mt("div", {
-				class: "full-height pure-u-1-2 app-preview"
-			},[
-				mt("div", {
-					class: "app-phonecase"
-				})
+      mt("div.full-height.pure-u-1-2.app-preview", [
+				mt("div.app-phonecase")
 			]),
-      mt("div", {
-				class: "full-height pure-u-1-2 feature-request"
-			}, [
-				mt("div", {
-					class: "feature-item pure-u-4-5"
-				}),
-				mt("div", {
-					class: "feature-item pure-u-3-5"
-				}),
-				mt("div", {
-					class: "feature-item pure-u-2-5"
-				})
+      mt("div.full-height.pure-u-1-2.feature-request", [
+				mt("div.pure-u-18-24", [
+					mt("div.feature-item.pure-u-1", "A gamified recipe app"),
+					mt("div.feature-item.pure-u-4-5"),
+					mt("div.feature-item.pure-u-3-5", "Like what we do? Drop us a few line:")
+				]),
 			]),
     ]);
 	}
