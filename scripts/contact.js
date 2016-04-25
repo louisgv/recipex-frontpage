@@ -1,29 +1,31 @@
-(() => {
-  "use strict";
+(function () {
+	"use strict";
 
-  var mt = window["m"];
+	var mt = window["m"];
 
-  function Mount() {
-    mt.mount(window.document.getElementById("contact"), Container);
-  }
+	function Mount() {
+		mt.mount(window.document.getElementById("contact"), Container);
+	}
 
-  function Controller() {
-    // var getData = mt.request({ method: "GET", url: apiUrl });
+	function Controller() {
+		// var getData = mt.request({ method: "GET", url: apiUrl });
 
-  }
+	}
 
-  function View() {
+	function View() {
 
-    return mt("div", { class: "pure-g" }, [
+		return mt("div", {
+			class: "pure-g"
+		}, [
 
     ]);
-  }
+	}
 
-  var Container = {
-    view: View,
-    controller: Controller
-  };
+	var Container = {
+		view: View,
+		controller: Controller
+	};
 
-  Mount();
+	Mount();
 
 })();
