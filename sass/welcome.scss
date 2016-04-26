@@ -1,76 +1,95 @@
-#welcome {
-
-}
+#welcome {}
 
 .app-preview {
-  background: $negative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background: $negative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-request {
-  background: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-header {
-  height: 90px;
-  width: 90px;
-  background: gray;
-  display: block;
-  margin-bottom: 9px;
+    height: 90px;
+    width: 90px;
+    background: gray;
+    display: block;
+    margin-bottom: 9px;
 }
 
 .feature-item {
-  height: 27px;
-  background: gray;
-  display: block;
-  margin-bottom: 9px;
+    height: 27px;
+    background: gray;
+    display: block;
+    margin-bottom: 9px;
 }
 
 .app-phonecase {
-  height: 450px;
-  width: 270px;
-  background: gray;
+    height: 450px;
+    width: 270px;
+    // background: gray;
+    text-align: center;
 }
 
-.centered-prompt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.app-logo {
+  text-align: center;
   justify-content: center;
-  min-height: 300px;
-  padding: 10px;
+  margin-top: 27px;
+}
+
+.half-left-rounded {
+  border-radius: 2em 0 0 2em !important;
+}
+
+.half-right-rounded {
+  border-radius: 0 2em 2em 0 !important;
+}
+
+.img-logo {
+    height: 99px;
+    width: 99px;
+}
+//
+
+.centered-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    padding: 10px;
 }
 
 .centered-prompt-item + .centered-prompt-item {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .centered-prompt-icon {
-  font-size: 60px;
-  line-height: 0;
+    font-size: 60px;
+    line-height: 0;
 }
 
 .centered-prompt-label {
-  color: #86969C;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
+    color: #86969C;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .centered-prompt-details {
-  color: #86969C;
-  font-size: 16px;
-  margin-bottom: 10px;
-  text-align: center;
+    color: #86969C;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .icon {
-  color: #BCD2DA;
+    color: #BCD2DA;
 }
