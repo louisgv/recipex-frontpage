@@ -44,7 +44,7 @@
 						})
 					]),
 					mt("div.pure-u-3-5", [
-						mt("h1", "RecipeX"),
+						mt("h1", "Farci"),
 						mt("h3", "The Rocket Engineer's Cooking Guide"),
 						// mt("hr")
 					]),
