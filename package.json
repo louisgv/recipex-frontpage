@@ -1,32 +1,18 @@
 {
-  "name": "fpmki",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "sass-watch": "^0.1.0"
-  },
+  "name": "front-page",
+  "version": "0.1.0",
+  "private": true,
   "devDependencies": {
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-clean-css": "^2.0.6",
-    "gulp-concat": "^2.6.0",
-    "gulp-sass": "^2.3.1",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7"
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/louisgv/recipex-frontpage.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/louisgv/recipex-frontpage/issues"
-  },
-  "homepage": "https://louisgv.github.io/recipex-frontpage"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
